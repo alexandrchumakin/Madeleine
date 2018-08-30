@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pages>
+    <Page name="Login">
+        <Control label="UserName" type="TextBox" id="edit-name" />
+        <Control label="Password" type="TextBox" id="edit-pass" />
+        <Control label="LoginButton" type="Button" id="edit-submit" />
+    </Page>
+    <Page name="Dashboard">
+        <Control label="Residents" type="Link" xpath="//a[text()='Residents']" />
+        <Control label="All residents" type="Link" xpath="//a[contains(text(), 'All residents')]" />
+        <Control label="Add a resident" type="Link" xpath="//a[contains(text(), 'Add a resident')]" />
+        <Control label="Caregivers" type="Link" xpath="//a[text()='Caregivers']" />
+        <Control label="Create carer pro account" type="Link" xpath="//a[contains(text(), 'Create carer pro account')]" />
+        <Control label="All caregivers" type="Link" xpath="//a[contains(text(), 'All caregivers')]" />
+        <Control label="TestAutomation Auto" type="Link" xpath="//a[contains(text(), 'TestAutomation Auto')]" />
+        <Control label="TestAdminPro AutoAdmin" type="Link" xpath="//a[contains(text(), 'TestAdminPro AutoAdmin')]" />
+        <Control label="FN LN" type="Link" xpath="//a[contains(text(), 'FN LN')]" />
+        <Control label="Family Page" type="Link" xpath="//a[text()='Family Page']" />
+        <Control label="Edit senior profile" type="Link" xpath="//a[text()='Edit senior profile']" />
+        <Control label="Create carer-fam" type="Link" xpath="//a[contains(text(), 'Create carer-fam')]" />
+        <Control label="Cancel account" type="Button" xpath="//a[text()='Cancel account']" />
+    </Page>
+    <Page name="User Account">
+        <Control label="Enter the name" type="TextBox" id="edit-profile-main-field-first-name-und-0-value" />
+        <Control label="Enter the surname" type="TextBox" id="edit-profile-main-field-last-name-und-0-value" />
+        <Control label="Birthday" type="TextBox" id="edit-profile-main-field-date-und-0-value-datepicker-popup-0" />
+        <Control label="Wedding date" type="TextBox" id="edit-profile-senior-field-wedding-date-und-0-value-datepicker-popup-0" />
+        <Control label="Date of first job" type="TextBox" id="edit-profile-senior-field-date-of-first-job-und-0-value-datepicker-popup-0" />
+        <Control label="Phone" type="TextBox" xpath="//*[contains(text(), 'Phone')]/../input" />
+        <Control label="Relations" type="TextBox" id="edit-profile-carer-fam-field-relations-und-0-value" />
+        <Control label="Job" type="TextBox" xpath="//*[contains(text(), 'Job')]/../input" />
+        <Control label="Your valid e-mail" type="TextBox" id="edit-mail" />
+        <Control label="Admin-fam" type="CheckBox" id="edit-profile-carer-fam-field-admin-fam-und" />
+        <Control label="Create new account" type="Button" id="edit-submit" />
+        <Control label="Error message" type="Message" xpath="//div[@class='messages--error messages error']" />
+        <Control label="Picture" type="FileUpload" xpath="//div[@class='image-widget-data']" />
+    </Page>
+    <Page name="Carer fam account">
+        <Control label="Leave a message" type="Link" xpath="//a[text()='Leave a message']" />
+        <Control label="Family Page" type="Link" xpath="//a[text()='Family Page']" />
+        <Control label="Edit admin carer fam profile" type="Link" xpath="//a[text()='Edit admin carer fam profile']" />
+        <Control label="First name" type="TextBox" xpath="//span[contains(text(), 'First name')]/../div//div[@class='field-item even']" />
+        <Control label="Last name" type="TextBox" xpath="//span[contains(text(), 'Last name')]/../div//div[@class='field-item even']" />
+        <Control label="Birthday" type="TextBox" xpath="//span[contains(text(), 'Birthday')]/../div//div[@class='field-item even']" />
+        <Control label="Phone" type="TextBox" xpath="//span[contains(text(), 'Phone')]/../div//div[@class='field-item even']" />
+        <Control label="Relations" type="TextBox" xpath="//span[contains(text(),'Relations')]/../div//div[@class='field-item even']" />
+        <Control label="E-mail" type="TextBox" xpath="//span[contains(text(), 'E-mail')]/../div//div[@class='field-item even']" />
+        <Control label="Profile" type="TextBox" xpath="//div[contains(@class,'view view-madeleine-profile view-id-madeleine_profile view-display-id-madeleine_profile_content')]//div[@class='view-content']/div" />
+    </Page>
+    <Page name="Carer pro account">
+        <Control label="Masquerade as ..." type="Link" xpath="//a[contains(text(), 'Masquerade as')]" />
+        <Control label="Leave a message" type="Link" xpath="//a[text()='Leave a message']" />
+        <Control label="Family Page" type="Link" xpath="//a[text()='Family Page']" />
+        <Control label="Edit carer pro profile" type="Link" xpath="//a[text()='Edit carer pro profile']" />
+        <Control label="First name" type="TextBox" xpath="//span[contains(text(), 'First name')]/../div//div[@class='field-item even']" />
+        <Control label="First name:" type="TextBox" id="edit-field-first-name-0-field-first-name-und-0-value" />
+        <Control label="Edit this field (First name)" type="Button" id="edit-field-first-name-0-actions-edit" />
+        <Control label="Save (First name)" type="Button" id="edit-field-first-name-0-actions-submit" />
+        <Control label="Last name" type="TextBox" xpath="//span[contains(text(), 'Last name')]/../div//div[@class='field-item even']" />
+        <Control label="Last name:" type="TextBox" id="edit-field-last-name-0-field-last-name-und-0-value" />
+        <Control label="Edit this field (Last name)" type="Button" id="edit-field-last-name-0-actions-edit" />
+        <Control label="Save (Last name)" type="Button" id="edit-field-last-name-0-actions-submit" />
+        <Control label="Birthday" type="TextBox" xpath="//span[contains(text(), 'Birthday')]/../div//div[@class='field-item even']" />
+        <Control label="Phone" type="TextBox" xpath="//span[contains(text(), 'Phone')]/../div//div[@class='field-item even']" />
+        <Control label="Job" type="TextBox" xpath="//span[contains(text(),'Job')]/../div//div[@class='field-item even']" />
+        <Control label="Job:" type="TextBox" id="edit-field-profession-0-field-profession-und-0-value" />
+        <Control label="Edit this field (Job)" type="Button" id="edit-field-profession-0-actions-edit" />
+        <Control label="Save (Job)" type="Button" id="edit-field-profession-0-actions-submit" />
+        <Control label="E-mail" type="TextBox" xpath="//span[contains(text(), 'E-mail')]/../div//div[@class='field-item even']" />
+        <Control label="E-mail:" type="TextBox" id="edit-field-change-mail-0-field-change-mail-und-0-email" />
+        <Control label="Edit this field (E-mail)" type="Button" id="edit-field-change-mail-0-actions-edit" />
+        <Control label="Save (E-mail)" type="Button" id="edit-field-change-mail-0-actions-submit" />
+        <Control label="Picture" type="FileUpload" xpath="//div[@class='field field-name-field-picture field-type-image field-label-hidden']" />
+        <Control label="Profile" type="TextBox" xpath="//div[contains(@class,'view view-madeleine-profile view-id-madeleine_profile view-display-id-madeleine_profile_content')]//div[@class='view-content']/div" />
+        <Control label="Cancel account" type="Button" xpath="//a[text()='Cancel account']" />
+    </Page>
+    <Page name="Admin fam account">
+        <Control label="Status message" type="Message" xpath="//div[@class='messages--status messages status']" />
+    </Page>
+    <Page name="Admin pro account">
+        <Control label="Masquerade as ..." type="Link" xpath="//a[contains(text(), 'Masquerade as')]" />
+        <Control label="Profile" type="TextBox" xpath="//div[contains(@class,'view view-madeleine-profile view-id-madeleine_profile view-display-id-madeleine_profile_content')]//div[@class='view-content']/div" />
+        <Control label="Edit admin pro profile" type="Link" xpath="//a[text()='Edit admin pro profile']" />
+        <Control label="First name" type="TextBox" xpath="//span[contains(text(), 'First name')]/../div//div[@class='field-item even']" />
+        <Control label="First name:" type="TextBox" id="edit-field-first-name-0-field-first-name-und-0-value" />
+        <Control label="Edit this field (First name)" type="Button" id="edit-field-first-name-0-actions-edit" />
+        <Control label="Save (First name)" type="Button" id="edit-field-first-name-0-actions-submit" />
+        <Control label="Last name" type="TextBox" xpath="//span[contains(text(), 'Last name')]/../div//div[@class='field-item even']" />
+        <Control label="Last name:" type="TextBox" id="edit-field-last-name-0-field-last-name-und-0-value" />
+        <Control label="Edit this field (Last name)" type="Button" id="edit-field-last-name-0-actions-edit" />
+        <Control label="Save (Last name)" type="Button" id="edit-field-last-name-0-actions-submit" />
+        <Control label="Birthday" type="TextBox" xpath="//span[contains(text(), 'Birthday')]/../div//div[@class='field-item even']" />
+        <Control label="Birthday:" type="TextBox" id="edit-field-date-0-field-date-und-0-value-datepicker-popup-0" />
+        <Control label="Edit this field (Birthday)" type="Button" id="edit-field-date-0-actions-edit" />
+        <Control label="Save (Birthday)" type="Button" id="edit-field-date-0-actions-submit" />
+        <Control label="E-mail" type="TextBox" xpath="//span[contains(text(), 'E-mail')]/../div//div[@class='field-item even']" />
+        <Control label="E-mail:" type="TextBox" id="edit-field-change-mail-0-field-change-mail-und-0-email" />
+        <Control label="Edit this field (E-mail)" type="Button" id="edit-field-change-mail-0-actions-edit" />
+        <Control label="Save (E-mail)" type="Button" id="edit-field-change-mail-0-actions-submit" />
+        <Control label="Cancel account" type="Button" xpath="//a[text()='Cancel account']" />
+    </Page>
+    <Page name="Senior account">
+        <Control label="First name" type="TextBox" xpath="//span[contains(text(), 'First name')]/../div//div[@class='field-item even']" />
+        <Control label="Last name" type="TextBox" xpath="//span[contains(text(), 'Last name')]/../div//div[@class='field-item even']" />
+        <Control label="Picture" type="FileUpload" xpath="//div[@class='field field-name-field-picture field-type-image field-label-hidden']" />
+        <Control label="Birthday" type="TextBox" xpath="//span[contains(text(), 'Birthday')]/../div//div[@class='field-item even']" />
+        <Control label="Wedding date" type="TextBox" xpath="//span[contains(text(), 'Wedding date')]/../div//div[@class='field-item even']" />
+        <Control label="Date of first job" type="TextBox" xpath="//span[contains(text(), 'Date of first job')]/../div//div[@class='field-item even']" />
+        <Control label="Status message" type="Message" xpath="//div[@class='messages--status messages status']" />
+        <Control label="Edit senior profile" type="Link" xpath="//a[text()='Edit senior profile']" />
+        <Control label="Leave a message" type="Link" xpath="//a[text()='Leave a message']" />
+        <Control label="Family Page" type="Link" xpath="//a[text()='Family Page']" />
+        <Control label="Profile" type="TextBox" xpath="//div[contains(@class,'view view-madeleine-profile view-id-madeleine_profile view-display-id-madeleine_senior_profile_content')]//div[@class='view-content']/div" />
+        <Control label="Cancel account" type="Button" xpath="//a[text()='Cancel account']" />
+    </Page>
+    <Page name="Cancel account form">
+        <Control label="Cancel account" type="Button" id="edit-submit" />
+    </Page>
+</Pages>
